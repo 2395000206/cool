@@ -21,7 +21,7 @@ self.addEventListener('active', function () {
 });
 
 var precacheUrls = [
-'/cool/cool/','/cool/cool/posts/9904/','/cool/cool/posts/9903/','/cool/cool/posts/9903/','/cool/cool/posts/16107/',
+'/','/posts/9904/','/posts/9903/','/posts/9903/','/posts/16107/',
 ];
 toolbox.precache(precacheUrls);
 toolbox.options = {"networkTimeoutSeconds":5};
